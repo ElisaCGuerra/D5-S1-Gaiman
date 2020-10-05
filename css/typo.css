@@ -1,14 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 h1{
 font-family: 'Playfair Display';
-font-size: 3em;
+font-size: 2.5em;
+font-style: italic;
+font-weight:600;
+line-height: 1.4em;
+border-bottom: solid;
+border-width: thin;
+}
+
+.sous-titre{
+  padding-top: 2%;
+  font-family: 'Playfair Display';
+  font-size: 1.3em;
 }
 
 p{
   font-family: 'IBM Plex Sans', sans-serif;
   line-height: 1.6em;
+  margin-bottom: 2%;
 }
 
 .navigation {
@@ -20,29 +32,66 @@ p{
 .navigation a{
 text-decoration: none;
 }
-.page1 p{
-  background-color: #FCFAF3;
-  padding: 5%;
-  color: #000;
-  margin: 0;
-}
+
 
 span{
-  font-family: 'Playfair Display';
-justify-content: center;
-line-height: 1.7em;
+font-family: 'Playfair Display';
+font-size: 1.3em;
+line-height: 1.5em;
 }
 
 .citation1{
-  background-color: #C37F6C;
-  padding: 50px;
-  color: #000;
 font-family: 'IBM Plex Sans', sans-serif;
+text-align: center;
+font-weight: 500;
+line-height: 1.7em;
+}
+
+.citation2{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.citation-majuscule{
+font-family: 'IBM Plex Sans', sans-serif;
+text-align: center;
 font-weight: 600;
 line-height: 1.7em;
+color: #FCFAF3;
 }
 
 li{
   font-family: 'IBM Plex Sans', sans-serif;
-  line-height: 1.7em;
+  line-height: 2em;
+}
+
+mark{
+font-family: 'IBM Plex Sans', sans-serif;
+font-weight: 600;
+  text-align: center;
+  line-height: 3em;
+}
+
+.merci{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  text-align: center;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+.col{
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 1.6em;
+}
+
+.savoir-plus a{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  text-align: center;
+  font-size: 1.6em;
+  color: black;
 }
