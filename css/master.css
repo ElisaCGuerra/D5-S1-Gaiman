@@ -22,7 +22,6 @@ header{
 .navigation a{
 color: #000;
 padding: 2em;
-font-size: 1.3em;
 }
 
 .navigation a:hover{
@@ -30,7 +29,7 @@ color: #C37F6C;
 }
 
 body{
-background-image: url("D5-S1-Gaiman/images/background.jpg");
+background: rgb(209, 221, 218);
 background-repeat: no-repeat;
 background-attachment: fixed;
 padding-top: 15vh;
