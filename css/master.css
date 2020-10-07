@@ -28,6 +28,16 @@ padding: 2em;
 color: #C37F6C;
 }
 
+.liseret{
+  border: 0;
+   height: 1px;
+   background: #333;
+   margin-top: 2%;
+padding-left: 2%;
+margin-right: -3.5%;
+
+}
+
 body{
 background: rgb(209, 221, 218);
 background-repeat: no-repeat;
@@ -38,12 +48,6 @@ padding-top: 15vh;
   article{
 min-height: 60vh;
   }
-
-  footer{
-  background: rgba(0, 0, 0, 1);
-  min-height: 20vh;
-  color: #fff;
-    }
 
 
 .navigation{
@@ -92,8 +96,9 @@ margin-top: 5%;
 margin-bottom: 5%;
 }
 
-.bouton-accueil{
-  max-width: 5%;
+.bouton-index{
+max-width: 900px;
+margin-top: -1%;
 }
 
 
@@ -121,13 +126,19 @@ ul{
   padding: 2%;
 }
 
+.citation-noire{
+  background-color: #000;
+  margin: auto;
+  padding: 2%;
+}
+
 .citation-majuscule{
   background-color: #000;
   margin: auto;
   padding: 2%;
 }
 
-mark{
+.surligne{
   background-color: #C37F6C;
   margin: auto;
   padding: 1%;

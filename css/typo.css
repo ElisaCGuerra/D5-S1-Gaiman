@@ -7,8 +7,6 @@ font-size: 2.5em;
 font-style: italic;
 font-weight:600;
 line-height: 1.4em;
-border-bottom: solid;
-border-width: thin;
 }
 
 .sous-titre{
@@ -21,6 +19,12 @@ p{
   font-family: 'IBM Plex Sans', sans-serif;
   line-height: 1.6em;
   margin-bottom: 2%;
+}
+
+.bold{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 .navigation {
@@ -56,6 +60,15 @@ line-height: 1.7em;
   line-height: 1.5em;
 }
 
+.citation-noire{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  color: #FFF;
+}
+
 .citation-majuscule{
 font-family: 'IBM Plex Sans', sans-serif;
 text-align: center;
@@ -69,7 +82,7 @@ li{
   line-height: 2em;
 }
 
-mark{
+.surligne{
 font-family: 'IBM Plex Sans', sans-serif;
 font-weight: 600;
   text-align: center;
